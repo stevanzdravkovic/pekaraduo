@@ -1,0 +1,172 @@
+*{margin: 0 auto}
+body{background-image: url("pekar2.jpg");}
+
+#okvir{width:1400px; }
+#heder{border-bottom: 2px solid white; width:max;opacity:0.8;}
+#hedergore{border-bottom: 2px solid white; width:max; height:50px;background-color:#260d0d;}
+#drustveneMreze {float:right}
+#drustveneMreze img {margin-right:40px;margin-top:10px;border-radius:15px}
+
+#hedergore li {float:left;padding-top:10px;list-style:none;}
+#hedergore a{color: white;text-decoration:none;margin-left:40px;font-size:20px;}
+
+#hedersredina{width:max; height:150px;background-color:black;}
+#logo {float:left;height:150px;width:300px;}
+#logo img{height:150px;}
+#naziv{color:white;float:right;padding-right:350px;}
+#naziv h1{font-size:50px;height:100px;padding-top:40px;}
+.cistac{clear:both}
+
+
+
+#meni{border-top: 2px solid white;width:max; height:50px;background-color:Chocolate; }
+#meni ul li a{text-decoration:none;padding-left:30px;color:black}
+#meni ul li{list-style:none;float:left;padding-top:15px;height:35px;margin-right:50px }
+#meni a:hover{color:white;}
+
+
+
+
+#slajder{ width:1100px; height:650px;margin-top:170px;background-color:black; opacity:0.9;border-radius:30px}
+#slajder .show{display:block}
+#slajder img{display:none;margin-left:170px;border-radius:30px;padding-top:80px}
+
+
+#akcije{border-radius:50px; width:1100px; height:400px;margin-top:100px;background-color:black;color: white;opacity:0.8;}
+.akcija{border: 2px solid white; width:250px; height:250px;float:left;margin-left:70px;margin-top:70px;}
+#akcije h2 {text-align:center;}
+#ciljevi{border-radius:100px; width:1100px; height:200px;margin-top:170px;background-color:black;color:white;opacity:0.8}
+#ciljevi h3{text-align:center}
+#ciljevi p{text-align:center}
+#futer{width:mx; height:150px;margin-top:200px;background-color:black;color:white;opacity:0.7;border-radius:10px}
+#menifuter {border-right:2px solid white;width:300px;float:left}
+#menifuter ul li a{text-decoration:none;color:white}
+#menifuter ul li{list-style:none;margin-top:7px}
+#futersredina {border-right:2px solid white;float:left }
+#futersredina p {padding-top:110px;padding-left:100px;padding-right:100px}
+
+#futerposao{width:max; height:150px;margin-top:200px;background-color:black;color:white;opacity:0.7;border-radius:10px}
+#levofuter p{color:red}
+#levofuter ul li{list-style:none;margin-top:7px}
+#futerdesno {float:right}
+#futerdesno a{color:white;text-decoration:none;}
+#futerdesno ul li{list-style:none;padding-bottom:15px}
+#futerdesno ul{padding-top:80px}
+
+/*registracija*/
+#forma{opacity:0.8;color:white;text-align:center}
+#forma h2 {background-color:white;opacity:0.8;color:black}
+
+/*autor*/
+#autor{height:400px;background-color:black;width:500px;opacity:0.9;text-align:center}
+#autor p{background-color:black;color:white;text-align:center;}
+
+#autor h2{background-color:white;opacity:0.8}
+
+
+/*o nama*/
+#mapa{width:600px;height:450px;background-color:black;}
+#sredina{background-color:black;height:500px;width:700px;border-radius:30px}
+#mapa p{color:white;text-align:center}
+#mapa h2{background-color:white;opacity:0.8;text-align:center;}
+
+/*galerija*/
+#slider .slike {color:white;float:left;padding-left:140px;padding-top:30px;}
+#slider .slike a{color:white;text-decoration:none}
+#slider {background-color:black;width:max;opacity:0.9}
+#slider h2 {text-align:center;background-color:white;opacity:0.8}
+
+/*novo*/
+#formaAnketa{background-color:black;opacity:0.8; }
+#formaAnketa h2 {background-color:white;opacity:0.8;text-align:center}
+#formaAnketa td {color:white}
+#formaAnketa p {color:black; background-color: white;opacity: 0.8;text-align: center}
+.odg{color:white;text-align:center;}
+
+/*admin*/
+.admin{background-color:black;color:white;opacity:0.9}
+.admin h2 {text-align:center;background-color:white;opacity:0.8;color:black}
+.admin a {text-decoration:none;color:white}
+.admin a:hover{color:brown}
+
+
+
+
+
+/*user*/
+#podaciUser{background-color:black;width:max;opacity:0.9;text-align:center}
+#podaciUser h2 {background-color:white;opacity:0.8}
+#podaciUser p {color:green}
+#zebrica {color:white;}
+
+
+/*akcija*/
+.akcija  {-webkit-animation: mymove 7s infinite;/* Chrome, Safari, Opera */
+  animation: mymove 7s infinite;background-color:white;opacity:0.8}
+	@-webkit-keyframes mymove {
+    50% {-webkit-transform: rotate(180deg);}
+
+
+
+
+
+
+
+
+
+
+.container { background-color: blue; height:800px;width:800px; }
+
+
+
+#result {
+
+	border-color: black;
+}
+
+
+#result .th1{
+	padding-top:5px;
+	padding-bottom:5px;
+	color:black;
+	background-color:#cccccc;
+	border-radius:30px;
+	border:2px solid black;
+}
+#h2Event{
+	display:none;
+}
+#result .td1{
+	font-weight:bold;
+	background-color:#cccccc;
+	border: 2px solid black;
+	border-radius:30px;
+}
+#result .td_img{
+	width:300px;
+	height:200px;
+	background-color:#cccccc;
+	border: 2px solid black;
+	border-radius:30px;
+}
+#result .td_img img{
+	border-radius:30px;
+	width:300px;
+	height:200px;
+	padding-top:3px;
+	padding-left:3px;
+	padding-right:3px;
+	
+}
+#result table{
+	border-color:black;
+	border-radius:25px;
+}
+
+
+
+.input_group{margin-left: 100px;}
+
+
+#pusonja p{background-color: blue;height: 80px;color:red;}
+#pusonja {background-color: blue;height: 80px;color: red}
